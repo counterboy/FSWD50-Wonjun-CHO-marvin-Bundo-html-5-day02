@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>	
+	<title>Submit form</title>
+</head>
+<body>
+	<form action="actionpage.php">
+		Name:<b>
+			<input type="text" name="name" placeholder="Name"> <br>
+		Surname:<b>
+			<input type="text" name="surnmae" placeholder="Surname"> <br>
+		<br>
+		Select gender:<br>
+		<input type="radio" name="gender" value="female"> Female <br>
+		<input type="radio" name="gender" value="male"> Male <br>
+       <br>
+		Select your highest education:<br>
+		<select name="education">
+			
+			<option value="high school">High School</option>
+			<option value="bachelor">Bachelor</option>
+			<option value="master">Master</option>}
+			<option value="phd">PhD</option>
+	</select> <br>
+	<br>
+	Tell us something about yourself: <br>
+	<textarea name="descripiton" rows="20" cols="20"> I am ....
+	</textarea> <br>
+	<br>
+	New password:
+	<input type="password" name="password"	placeholder="password"><br>
+	<br>
+
+	<input type="submit" value="Submit your data">
+</body>
+</html>
